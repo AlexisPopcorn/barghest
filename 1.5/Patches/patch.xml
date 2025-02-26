@@ -1,0 +1,87 @@
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="BorealForest" or defName="Tundra" or defName="BorealForest"
+            or defName="TemperateForest"
+            or defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+            <Barghest>0.03</Barghest>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="SeaIce" or defName="IceSheet"]/wildAnimals</xpath>
+        <value>
+            <Barghest>0.05</Barghest>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Genetics Expanded</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/GeneticRim.ExtractableAnimalsList[defName="GR_TierOneAnimalsCanine"]/extractableAnimals</xpath>
+            <value>Barghest</value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>ReGrowth: Core</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/BiomeDef[defName="RG_TemperateGrassland"]/wildAnimals</xpath>
+            <value>
+                <Barghest>0.03</Barghest>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>ReGrowth: Aspen</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/BiomeDef[defName="RG_AspenForest"]/wildAnimals</xpath>
+            <value>
+                <Barghest>0.03</Barghest>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>ReGrowth: Boiling</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/BiomeDef[defName="RG_BoilingForest"]/wildAnimals</xpath>
+            <value>
+                <Barghest>0.03</Barghest>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medieval Overhaul</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/BiomeDef[defName="DankPyon_DarkForest"]/wildAnimals</xpath>
+            <value>
+                <Barghest>0.006</Barghest>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Alpha Biomes</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/BiomeDef[defName="AB_PropaneLakes"]/wildAnimals</xpath>
+            <value>
+                <Barghest>0.05</Barghest>
+            </value>
+        </match>
+    </Operation>
+</Patch>

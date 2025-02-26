@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Barghest</name>
+  <author>AlexisPopcorn</author>
+  <modDependencies>
+    </modDependencies>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>AlexisPopcorn.barghest</packageId>
+  <description>Credits to Anthitei for the art
+  </description>
+
+</ModMetaData>
