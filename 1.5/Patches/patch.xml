@@ -1,28 +1,38 @@
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="BorealForest" or defName="Tundra" or defName="BorealForest"
-            or defName="TemperateForest"
-            or defName="TemperateSwamp"]/wildAnimals</xpath>
+        <xpath>Defs/BiomeDef[defName="BorealForest" or defName="BorealForest"
+            or defName="TemperateForest"]/wildAnimals</xpath>
         <value>
-            <Barghest>0.03</Barghest>
+            <Barghest>0.055</Barghest>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="SeaIce" or defName="IceSheet"]/wildAnimals</xpath>
+        <xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
         <value>
-            <Barghest>0.05</Barghest>
+            <Barghest>0.01</Barghest>
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Vanilla Genetics Expanded</li>
-        </mods>
-        <match Class="PatchOperationAdd">
-            <xpath>Defs/GeneticRim.ExtractableAnimalsList[defName="GR_TierOneAnimalsCanine"]/extractableAnimals</xpath>
-            <value>Barghest</value>
-        </match>
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+        <value>
+            <Barghest>0.067</Barghest>
+        </value>
+    </Operation>
+
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+            <Barghest>0.044</Barghest>
+        </value>
+    </Operation>
+
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+        <value>
+            <Barghest>0.018</Barghest>
+        </value>
     </Operation>
 
     <Operation Class="PatchOperationFindMod">
@@ -56,7 +66,7 @@
         <match Class="PatchOperationAdd">
             <xpath>Defs/BiomeDef[defName="RG_BoilingForest"]/wildAnimals</xpath>
             <value>
-                <Barghest>0.03</Barghest>
+                <Barghest>0.022</Barghest>
             </value>
         </match>
     </Operation>
@@ -68,7 +78,7 @@
         <match Class="PatchOperationAdd">
             <xpath>Defs/BiomeDef[defName="DankPyon_DarkForest"]/wildAnimals</xpath>
             <value>
-                <Barghest>0.006</Barghest>
+                <Barghest>0.02</Barghest>
             </value>
         </match>
     </Operation>
@@ -80,7 +90,7 @@
         <match Class="PatchOperationAdd">
             <xpath>Defs/BiomeDef[defName="AB_PropaneLakes"]/wildAnimals</xpath>
             <value>
-                <Barghest>0.05</Barghest>
+                <Barghest>0.01</Barghest>
             </value>
         </match>
     </Operation>
