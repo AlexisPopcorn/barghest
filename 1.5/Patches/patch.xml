@@ -27,7 +27,17 @@
             <Barghest>0.044</Barghest>
         </value>
     </Operation>
-
+ <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Genetics Expanded</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/GeneticRim.ExtractableAnimalsList[defName="GR_TierOneAnimalsCanine"]/extractableAnimals</xpath>
+            <value>
+            <li>Barghest</li>
+            </value>
+        </match>
+    </Operation>
 <Operation Class="PatchOperationAdd">
         <xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
         <value>
